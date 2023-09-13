@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <title>Željka Horvat Vukelja</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Krešimir Horvat">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=0">
+    <meta name="theme-color" content="#egf1f1">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <nav id="nav-bar">
+            <div class="fixed">
+                <a href="index.html" id="logo" target="_self"> 
+                    <img id="header_logo" src="img/minimo_varijanta_3.png"  alt="logo"  > 
+                </a>
+            </div>
+
+            <div class="fixed">
+                <a href="javascript:void(0);" class="icon" onclick="toggleLinksDisplay()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div id="myLinks">
+                <a href="#" target="_self" id="dummyLink"> &nbsp </a>
+                <a href="biografija.html" target="_self" id="aboutLink" >O meni </a>
+                <a href="naslovnice.html" target="_self"> Djela </a>
+                <a href="galerija.html" target="_self"> Galerija </a>            
+                <a href="partneri.html" target="_self"> Partneri </a>
+                <a href="novosti.html" target="_self"> Novosti </a>
+                <a href="kontakt.html" target="_self"> Kontakt </a>
+            </div>
+        </nav>
+    </header>
+    <div id="content">
+        <div id="objavljena_djela">
+            <h1>Objavljena djela</h1>
+            <hr>
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/siskabaliska.jpg" alt="Šiškabališka" id="siskabaliska">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Šiškabališka</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Narodno sveučilište "Juraj Kokot", Velika Gorica, 1984.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>Zbirka kratkih priča.</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/poplava_iz_salice_kave.jpg" alt="Poplava iz šalice kave" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Poplava iz šalice kave</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Školska knjiga, 1988.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Hirovita, razmažena djevojčica gnjavi svoju mamu i tako u običnoj
+                        šalici bijele kave izazove strašnu poplavu.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/Balončica_staro_izdanje.jpg" alt="Balončica staro izdanje" loading="lazy">
+                    <img src="img/naslovnice/Balončica_novo_izdanje.jpg" alt="Balončica novo izdanje" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Balončica</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Školska knjiga; prvo izdanje: Mladost, 1990.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Kako je djevojčica Maša, koja ne jede ništa osim pokojeg slanog
+                        štapića i bombona, završila u oblacima, među pticama.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/Hrabrica_staro_izdanje.jpg" alt="Hrabrica staro izdanje" loading="lazy">
+                    <img src="img/naslovnice/Hrabrica_novo_izdanje.jpg" alt="Hrabrica novo izdanje" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Hrabrica</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Školska knjiga; prvo izdanje: Mladost, 1990.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Tko je pomogao Perici da napokon riješi najveći problem svog
+                        života i nauči voziti bicikl.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/Panjoglav.jpg" alt="Panjoglav" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Panjoglav</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Mladost, 1990.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>Što se sve može dogoditi kad netko uporno ne pere uši.</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/SLIKOPRICE_prvo_izdanje.jpg" alt="slikopriče" loading="lazy">
+                    <img src="img/naslovnice/Slikopriče_novo_izdanje.jpg" alt="slikopriče" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Slikopriče</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Školska knjiga, 1995.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Zašto snjegović živi u hladnjaku... Što napravi kuća kad joj
+                        dosadi biti kod kuće... Kako se Crvenkapica na brzinu riješila
+                        zločestog vuka...
+                    </p>
+                    <hr>
+                </div>
+            </div>
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/PutovanjePatuljkaZvoncica.jpg" alt="Putovanje patuljka zvončića" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Putovanje patuljka Zvončića</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Mozaik knjiga, 1997.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Roman o patuljku koji živi u cvjetnom loncu na prozoru jedne kuće
+                        u Gornjem gradu u Zagrebu. Patuljak je tužan jer nikad nije nikamo
+                        putovao. Prijateljica lastavica Lucija ga uz pomoć galeba Mate i
+                        rode Žabomlata povede u uzbudljivo putovanje po Hrvatskoj.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/zdenko_slovojed_2.jpg" alt="zdenko slovojed" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Zdenko Slovojed</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Kašmir promet, 2000.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Prvoškolac Zdenko odlazi u školu bez doručka pa jede slova dok
+                        prepisuje s ploče.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/Nove_slikopriče_staro_izdanje.jpg" alt="nove slikopriče" loading="lazy">
+                    <img src="img/naslovnice/Nove_slikopriče_novo_izdanje.jpg" alt="nove slikopriče" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Nove slikopriče</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Školska knjiga, 2001.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>15 novih slikopriča + naljepnice od kojih se napravi rječnik.</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/Reumatični_kišobran_drugi_lutkarski_igrokazi.jpg" alt="reumatični kišobran"
+                        loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Reumatični kišobran</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>DiVič, 2001.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>Zbirka kratkih igrokaza.</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/kornjaca.jpg" alt="kako je kornjača išla na ljetovanje" loading="lazy">   
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Kako je kornjača išla na ljetovanje</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Mozaik knjiga, 2001.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Iako je na vrijeme krenula i jako se žurila, kornjača je na ljetovanje stigla u krivo vrijeme.
+                    </p>    
+                    <hr>
+                </div>
+            </div>
+
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/Leteći_glasovir.jpg" alt="leteći glasovir" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Leteći glasovir</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Školska knjiga, 2003.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Katarinin glasovir odlazi u potragu za nekim tko će ga voljeti, a
+                        ni ne sluti kakve ga sve nevolje čekaju na njegovu putu.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/PetraUciPlivati.jpg" alt="leteći glasovir" loading="lazy" >
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Petra uči plivati</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Školska knjiga, 2003.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Hoće li Petra nakon mnogih bezuspješnih pokušaja napokon proplivati?
+                    <hr>
+                </div>
+            </div>
+
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/Miško.jpg" alt="Miško u cirkusu" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Miško u cirkusu</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Kašmir promet, 2003.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>Kako je prvašić Miško umjesto u školi završio u cirkusu.</p>
+
+                    <hr>
+                </div>
+            </div>
+
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/Pijanistica.jpg" alt="Pijanistica" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Pijanistica</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Školska knjiga, 2004.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Priča o djevojčici Dori koja je silno željela postati pijanistica.
+                    </p>
+
+                    <hr>
+                </div>
+            </div>
+
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/Reumatični_kišobran.jpg" alt="reumatični kišobran" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Reumatični kišobran i još deset pričokaza</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Školska knjiga, 2007.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Kako od kamenja skuhati juhu... Što se uči u školi
+                        hulahupkiranja... Što se sve dogodi kad novčanik postane škrt...
+                    </p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/Zelene_slikopriče.jpg" alt="Zelene slikopriče" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Zelene slikopriče</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Školska knjiga, 2017.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Novih 15 slikopriča, a uz svaku od njih ekoslikoradionica za izradu malih uporabnih predmeta.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/Panika.jpg" alt="Panika u kući pod morem" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Panika u kući pod morem</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Naklada Ljevak, 2019.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Slikovnica s glazbenim preporukama - priča o malom morsko račiću i o plimi i oseki.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/Tajna_nestalih_igračaka.jpg" alt="Tajna nestalih igračaka" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Tajna nestalih igračaka – u suradnji s Bornom Lulićem</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Naklada Ljevak, 2019.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Gotovo poptuno istinita priča o dječaku koji nije želio pospremati svoje igračke.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/Magdalenina_knjižnica.jpg" alt="Magdalenina knjižnica" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Magdalenina knjižnica na kotačima</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Narodna knjižnica „Fran Galović“, Koprivnica, 2020.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Magdalenom i njezinim bibliobusom putujemo iz sela u selo kroz godišnja doba. Samo u Zadnjem
+                        selu nitko nije zainteresiran za posuđivanje knjiga. Zašto? Hoće li Magdalena to promijeniti?
+                    </p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/Žinko.jpg" alt="Žinko u školi" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Žinko u školi</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Školska knjiga, 2021.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Mali Ježinko, zvan Žinko ide od kuće do kuće svojih šumskih prijatelja tražeći nekoga za igru.
+                        Međutim, svi su u školi jer danas je prvi dan nastave. I Žinko bi morao biti u školi, ali on to
+                        nikako ne želi.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/Pričom_do_glazbe.jpg" alt="Pričom do glazbe" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Pričom do glazbe – u suradnji s Petrom Heisinger</h2>
+                </div>
+                <div class="djelo_podaci">
+                    <h4>Glazbaonica Ljubav, 2019.</h4>
+                </div>
+                <div class="djelo_opis">
+                    <p>
+                        Priručnik o priči kao polazištu u glazbenom odgoju i obrazovanju djece mlađe i predškolske dobi.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+
+            <div id="radio_djela">
+                <h1>Radioigre za djecu</h1>
+                <ul>
+                    <li>Pobuna riječi</li>
+                    <li> Priča o priči</li>
+                    <li> Putovanje patuljka Zvončića</li>
+                    <li> Tko je glavni </li>
+                    <li> Leteći glasovir</li>
+                    <li> Hrabrica</li>
+                </ul>
+                <h4> Objavljene na Hrvatskom radiju </h4>
+                <hr>
+                <div>
+                    <h1>Dulji igrokazi</h1>
+                    <hr>
+                </div>
+
+            </div>
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/..." alt="reumatični kišobran" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Reumatični kišobran</h2>
+                </div>
+                <!-- <div class="djelo_podaci">
+                    <h4>Glazbaonica Ljubav, 2019.</h4>
+                </div> -->
+                <div class="djelo_opis">
+                    <p>
+                        Na repertoaru Gradskog kazališta Žar ptica u Zagrebu od 2005. do 2013. godine; redatelj Lawrence
+                        Kiiru.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="djelo_container">
+                <div class="djelo_naslovnica">
+                    <img src="img/naslovnice/hrabrica_plakat.jpg" alt="hrabrica" loading="lazy">
+                </div>
+                <div class="djelo_naslov">
+                    <h2>Hrabrica</h2>
+                </div>
+                <!-- <div class="djelo_podaci">
+                    <h4>Glazbaonica Ljubav, 2019.</h4>
+                </div> -->
+                <div class="djelo_opis">
+                    <p>
+                        Adaptacija istoimene slikovnice, u suradnji s dramaturginjom Marijanom Nola; premijera u
+                        Gradskom kazalištu Žar ptica 2015. ; redatelj Dario Harjaček.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
